@@ -1,0 +1,14 @@
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\bin\Debug\QuadradoMagico.exe.config
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\bin\Debug\QuadradoMagico.exe
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\bin\Debug\QuadradoMagico.pdb
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\QuadradoMagico.csprojResolveAssemblyReference.cache
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\MainWindow.g.cs
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\App.g.cs
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\QuadradoMagico_MarkupCompile.cache
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\QuadradoMagico_MarkupCompile.lref
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\MainWindow.baml
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\QuadradoMagico.g.resources
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\QuadradoMagico.Properties.Resources.resources
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\QuadradoMagico.csproj.GenerateResource.Cache
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\QuadradoMagico.exe
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\QuadradoMagico\QuadradoMagico\obj\Debug\QuadradoMagico.pdb

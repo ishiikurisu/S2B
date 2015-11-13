@@ -1,0 +1,36 @@
+﻿<Window x:Class="QuadradoMagico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuadradoMagico"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300">
+    <Grid Background="Black">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <TextBlock Foreground="White"
+                       VerticalAlignment="Top" HorizontalAlignment="Center"
+                       Text="Quadrado Mágico!" FontSize="15"/>
+            <ComboBox x:Name="comboDifficulty"
+                      HorizontalAlignment="Center"  VerticalAlignment="Center" 
+                      Width="250" Height="20" Cursor="Hand"
+                      SelectionChanged="comboDifficulty_SelectionChanged"/>
+            <TextBlock x:Name="textBlock"
+                	HorizontalAlignment="Center"
+                	VerticalAlignment="Top" TextWrapping="WrapWithOverflow"
+                	Text="A soma das linhas, das colunas e das diagonais deve ser igual!" 
+                    Foreground="White" FontSize="12" TextAlignment="Center" />
+
+        </StackPanel>
+
+        <StackPanel x:Name="PanelField" Grid.Row="1">
+            <!-- how do I populate this? -->
+        </StackPanel>
+    </Grid>
+</Window>

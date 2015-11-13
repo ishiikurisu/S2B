@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="exemplopanel.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:exemplopanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!-- try with Canvas instead of StackPanel -->
+        <StackPanel Background="Black">
+            <Ellipse Canvas.Left="50" Canvas.Top="80" 
+                     Margin="10"
+                     Width="40" Height="40" 
+                     Fill="Yellow" Canvas.ZIndex="1"/>
+            <Ellipse Canvas.Left="300" Canvas.Top="100" 
+                     Margin="7"
+                     Width="40" Height="40" Fill="Transparent" 
+                     Stroke="Magenta" StrokeThickness="10"/>
+            <Rectangle Canvas.Left="50" Canvas.Top="80" 
+                       Margin="3"
+                       Fill="Yellow" Width="100" Height="180"/>
+            <Rectangle Canvas.Left="180" Canvas.Top="100" 
+                       Margin="1"
+                       Fill="Cyan" Width="50" Height="180"
+                       Canvas.ZIndex="0"/>
+        </StackPanel>
+    </Grid>
+</Page>
