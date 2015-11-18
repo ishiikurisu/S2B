@@ -1,0 +1,1 @@
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\HandsOnFlipView\HandsOnFlipView\HandsOnFlipView.csproj;x86

@@ -1,0 +1,28 @@
+﻿<Window x:Class="HandsOnAula7.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HandsOnAula7"
+        mc:Ignorable="d"
+        Title="Window1" Height="500" Width="500">
+    <Grid Background="BlanchedAlmond">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1">
+            <Rectangle MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Fill="DarkGoldenrod" Width="75" Height="75"></Rectangle>
+            <Rectangle Fill="Honeydew" Width="75" Height="75"></Rectangle>
+            <Rectangle Fill="Tomato" Width="75" Height="75"></Rectangle>
+            <Rectangle Fill="Thistle" Width="75" Height="75"></Rectangle>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Rectangle Fill="DarkGoldenrod" Width="75" Height="75" Margin="10"></Rectangle>
+            <Rectangle Fill="Honeydew" Width="75" Height="75" Margin="10"></Rectangle>
+            <Rectangle x:Name="FriendBlock" Fill="Tomato" Width="75" Height="75" Margin="10"></Rectangle>
+            <Rectangle x:Name="BadBlock" MouseWheel="BadBlock_MouseWheel" Fill="Thistle" Width="75" Height="75" Margin="10"></Rectangle>
+        </StackPanel>
+    </Grid>
+</Window>
