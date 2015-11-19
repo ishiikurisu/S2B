@@ -1,0 +1,6 @@
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\ExemploParams\ExemploParams\bin\Debug\ExemploParams.exe.config
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\ExemploParams\ExemploParams\bin\Debug\ExemploParams.exe
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\ExemploParams\ExemploParams\bin\Debug\ExemploParams.pdb
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\ExemploParams\ExemploParams\obj\Debug\ExemploParams.csprojResolveAssemblyReference.cache
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\ExemploParams\ExemploParams\obj\Debug\ExemploParams.exe
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\ExemploParams\ExemploParams\obj\Debug\ExemploParams.pdb

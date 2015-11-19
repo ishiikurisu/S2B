@@ -1,0 +1,6 @@
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\CSharpAvancado\RevisaoTopicosEssenciais\bin\Debug\RevisaoTopicosEssenciais.exe.config
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\CSharpAvancado\RevisaoTopicosEssenciais\bin\Debug\RevisaoTopicosEssenciais.exe
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\CSharpAvancado\RevisaoTopicosEssenciais\bin\Debug\RevisaoTopicosEssenciais.pdb
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\CSharpAvancado\RevisaoTopicosEssenciais\obj\Debug\RevisaoTopicosEssenciais.csprojResolveAssemblyReference.cache
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\CSharpAvancado\RevisaoTopicosEssenciais\obj\Debug\RevisaoTopicosEssenciais.exe
+c:\users\cristiano.alves\documents\visual studio 2015\Projects\CSharpAvancado\RevisaoTopicosEssenciais\obj\Debug\RevisaoTopicosEssenciais.pdb
