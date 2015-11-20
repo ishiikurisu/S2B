@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:JogoDaVelha"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="600">
-    <Grid>
+    <Grid Background="IndianRed">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="400"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
@@ -24,19 +24,19 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
 
-            <Button x:Name="btnUpperLeft" Grid.Column="0" Grid.Row="0" FontSize="50" Click="btnUpperLeft_Click"></Button>
-            <Button x:Name="btnUpperMiddle" Grid.Column="1" Grid.Row="0" FontSize="50" Click="btnUpperMiddle_Click"></Button>
-            <Button x:Name="btnUpperRight" Grid.Column="2" Grid.Row="0" FontSize="50" Click="btnUpperRight_Click"></Button>
-            <Button x:Name="btnLeft" Grid.Column="0" Grid.Row="1" FontSize="50" Click="btnLeft_Click"></Button>
-            <Button x:Name="btnMiddle" Grid.Column="1" Grid.Row="1" FontSize="50" Click="btnMiddle_Click"></Button>
-            <Button x:Name="btnRight" Grid.Column="2" Grid.Row="1" FontSize="50" Click="btnRight_Click"></Button>
-            <Button x:Name="btnLowerLeft" Grid.Column="0" Grid.Row="2" FontSize="50" Click="btnLowerLeft_Click"></Button>
-            <Button x:Name="btnLowerMiddle" Grid.Column="1" Grid.Row="2" FontSize="50" Click="btnLowerMiddle_Click"></Button>
-            <Button x:Name="btnLowerRight" Grid.Column="2" Grid.Row="2" FontSize="50" Click="btnLowerRight_Click"/>
+            <Button x:Name="btnUpperLeft" Grid.Column="0" Grid.Row="0" FontSize="50" Click="btnUpperLeft_Click" BorderBrush="Black" Background="Transparent"></Button>
+            <Button x:Name="btnUpperMiddle" Grid.Column="1" Grid.Row="0" FontSize="50" Click="btnUpperMiddle_Click" BorderBrush="Black" Background="Transparent"></Button>
+            <Button x:Name="btnUpperRight" Grid.Column="2" Grid.Row="0" FontSize="50" Click="btnUpperRight_Click" BorderBrush="Black" Background="Transparent"></Button>
+            <Button x:Name="btnLeft" Grid.Column="0" Grid.Row="1" FontSize="50" Click="btnLeft_Click" BorderBrush="Black" Background="Transparent"></Button>
+            <Button x:Name="btnMiddle" Grid.Column="1" Grid.Row="1" FontSize="50" Click="btnMiddle_Click" BorderBrush="Black" Background="Transparent"></Button>
+            <Button x:Name="btnRight" Grid.Column="2" Grid.Row="1" FontSize="50" Click="btnRight_Click" BorderBrush="Black" Background="Transparent"></Button>
+            <Button x:Name="btnLowerLeft" Grid.Column="0" Grid.Row="2" FontSize="50" Click="btnLowerLeft_Click" BorderBrush="Black" Background="Transparent"></Button>
+            <Button x:Name="btnLowerMiddle" Grid.Column="1" Grid.Row="2" FontSize="50" Click="btnLowerMiddle_Click" BorderBrush="Black" Background="Transparent"></Button>
+            <Button x:Name="btnLowerRight" Grid.Column="2" Grid.Row="2" FontSize="50" Click="btnLowerRight_Click" BorderBrush="Black" Background="Transparent"/>
         </Grid>
 
         <StackPanel Grid.Column="1" Margin="0, 30">
-            <Button x:Name="btnReset" Margin="20, 20" Height="20" Content="Reset" Click="btnReset_Click"></Button>
+            <Button x:Name="btnReset" Margin="20, 20" Height="20" Content="Reset" Click="btnReset_Click" BorderBrush="Transparent" Background="Transparent"></Button>
             <Label x:Name="lblCurrentPlayer" Margin="20, 20" Height="40"></Label>
         </StackPanel>
     </Grid>
